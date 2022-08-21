@@ -61,6 +61,7 @@ export default {
 
   methods: {
     handleScroll() {
+      console.log(this.main);
       const clintHeight = this.main.clientHeight - 128;
       const scrollHeight = this.main.scrollHeight - 128;
       const scrollTop = this.main.scrollTop;
@@ -79,6 +80,7 @@ export default {
 
       const route = this.$route;
       if (route.meta.savePosition) {
+        console.log(this.positions[route.name]);
         this.positions[route.name] = { scrollTop, params: route.params };
       }
     },

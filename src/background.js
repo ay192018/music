@@ -206,6 +206,7 @@ class Background {
       let y = this.store.get('window.y');
 
       let displays = screen.getAllDisplays();
+
       let isResetWindiw = false;
       if (displays.length === 1) {
         let { bounds } = displays[0];

@@ -7,15 +7,18 @@ let baseURL = '';
 if (process.env.IS_ELECTRON) {
   if (process.env.NODE_ENV === 'production') {
     baseURL = process.env.VUE_APP_ELECTRON_API_URL;
+    console.log(process.env.VUE_APP_ELECTRON_API_URL);
   } else {
+    console.log(process.env.VUE_APP_ELECTRON_API_URL_DEV);
     baseURL = process.env.VUE_APP_ELECTRON_API_URL_DEV;
   }
 } else {
   baseURL = process.env.VUE_APP_NETEASE_API_URL;
+  console.log(process.env.VUE_APP_NETEASE_API_URL);
 }
 
 const service = axios.create({
-  baseURL,
+  baseURL: 'http://junyu.shop:3000/',
   withCredentials: true,
   timeout: 15000,
 });

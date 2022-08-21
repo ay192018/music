@@ -16,8 +16,6 @@
   </p>
 </p>
 
-[![Library][library-screenshot]](https://music.qier222.com)
-
 ## ✨ 特性
 
 - ✅ 使用 Vue.js 全家桶开发
@@ -190,29 +188,6 @@ yarn electron:serve
 # 运行 API （默认 3000 端口）
 yarn netease_api:run
 ```
-
-## ☑️ Todo
-
-查看 Todo 请访问本项目的 [Projects](https://github.com/qier222/YesPlayMusic/projects/1)
-
-欢迎提 Issue 和 Pull request。
-
-## 📜 开源许可
-
-本项目仅供个人学习研究使用，禁止用于商业及非法用途。
-
-基于 [MIT license](https://opensource.org/licenses/MIT) 许可进行开源。
-
-## 灵感来源
-
-API 源代码来自 [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)
-
-- [Apple Music](https://music.apple.com)
-- [YouTube Music](https://music.youtube.com)
-- [Spotify](https://www.spotify.com)
-- [网易云音乐](https://music.163.com)
-
-## 🖼️ 截图
 
 ![lyrics][lyrics-screenshot]
 ![library-dark][library-dark-screenshot]
