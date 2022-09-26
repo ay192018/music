@@ -44,7 +44,7 @@
 2. 克隆本仓库
 
 ```sh
-git clone --recursive https://github.com/qier222/YesPlayMusic.git
+https://github.com/ay192018/music/
 ```
 
 3. 安装依赖
